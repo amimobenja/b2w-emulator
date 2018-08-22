@@ -270,9 +270,32 @@ public class B2WServicesImplementor implements B2WServices {
             
             B2WResponse b2wResp = new B2WResponse();
             
-            if (result_value.equals("0")) {
-                status = true;
-                
+//            if (result_value.equals("0")) {
+//                status = true;
+//                
+//                b2wResp.setRid(requestId);
+//                b2wResp.setFunction(fnc);
+//                b2wResp.setMessage(message);
+//                b2wResp.setTerminaltype(tType);
+//                b2wResp.setUserid(uId);
+//                b2wResp.setUsername(uname);
+//
+//                StringBuffer responseParams = new StringBuffer();
+//                
+//                for(String key: params.keySet()) {
+//                    responseParams.append(key).append(" - ").append(params.get(key)).append(" \n");                                    
+//                }
+//                
+//                String respParams = String.valueOf(responseParams);
+//                b2wResp.setAllparam(respParams);
+//                
+//                b2wResRepo.save(b2wResp);
+//                
+//                sentResponse.put(Integer.parseInt(result_value), message);
+//                
+//            }  
+
+
                 b2wResp.setRid(requestId);
                 b2wResp.setFunction(fnc);
                 b2wResp.setMessage(message);
@@ -292,8 +315,6 @@ public class B2WServicesImplementor implements B2WServices {
                 b2wResRepo.save(b2wResp);
                 
                 sentResponse.put(Integer.parseInt(result_value), message);
-                
-            } 
             
         } catch (ParserConfigurationException pce) {
             //returnValue = pce.getMessage();

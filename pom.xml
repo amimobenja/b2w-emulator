@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ke.co.telkom.www</groupId>
-    <artifactId>Bank2WalletEmulator</artifactId>
+    <artifactId>T_APIsEmulator</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Bank2WalletEmulator</name>
+    <name>T_APIsEmulator</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
