@@ -1,0 +1,22 @@
+#appication parameters
+app:
+    params:
+        tcsrequest: TCSRequest
+        username: UserName
+        userId: UserId
+        terminalType: TerminalType
+        password: Password
+        function: Function
+        name: name
+        param: param
+    urls:
+        telepin: http://10.48.3.177:6060/telepin
+        #telepin: http://212.49.64.196:9080/TELEPIN
+    contents:
+        content: Content-Type
+        type: text/xml
+        byte: UTF-8
+        
+    
+    
+    
